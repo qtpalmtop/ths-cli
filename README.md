@@ -1,5 +1,5 @@
 # ths-cli
-思路脚手架第一版, 目前只有create-ionic-native命令，可以创建@ionic-native插件供angular项目使用
+思路脚手架第一版, 目前只有**create-ionic-native**命令，可以创建@ionic-native插件供**angular**项目使用
 ```ths-cli
 Usage: ths-cli <command> [项目名称]
 
@@ -19,13 +19,15 @@ npm install ths-cli2 -g
 ```linux
 ths-cli create-ionic-native ths-native-toast
 ```
-create-ionic-native 表示创建ionic-native插件指令
-ths-native-toast 表示想要生成的插件名称
+**create-ionic-native 表示创建ionic-native插件指令**
+
+**ths-native-toast 表示想要生成的插件名称**
 
 # 演示
 ```linux
 ths-cli create-ionic-native ths-native-toast
 ```
+```linux
 > 正在下载项目模板，源地址：git@github.com:qtpalmtop/templates-ionic-native.git#master
 > 插件的名称 (ThsPlugin): ThsToast
 > 插件的id (ths-native-plugin): ths-native-toast
@@ -35,6 +37,7 @@ ths-cli create-ionic-native ths-native-toast
 > 插件的git地址 (https://github.com/apache/cordova-plugin-ths-pluginName): https://github.com/qtpalmtop/cordova-plugin-ths-toast
 正在初始化项目模板：ths-native-toast/ths-native-toast
 ✔ 创建成功:)
+```
 
 之后当前目录下将会出现ths-native-toast插件
 ```linux
@@ -54,7 +57,7 @@ providers: [
   ]
 })
 ```
-然后在使用的模块中导入sdk就能直接调用起cordova插件功能
+然后在使用的模块中导入ths-native-toast插件就能直接调用起cordova插件功能,注意导入时需要加‘/ngx’,ionic4以下项目版本才不用
 
 ``` typescript
 // app.component.ts
