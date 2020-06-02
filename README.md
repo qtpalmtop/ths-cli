@@ -21,7 +21,7 @@ ths-cli create-ionic-native ths-native-toast
 ```
 **create-ionic-native 表示创建ionic-native插件指令**
 
-**ths-native-toast 表示想要生成的插件名称**
+**ths-native-toast 表示想要生成的插件id**
 
 # 演示
 ```linux
