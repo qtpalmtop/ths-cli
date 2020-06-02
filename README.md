@@ -1,6 +1,6 @@
 # ths-cli
-思路脚手架第一版
-ths-cli
+思路脚手架第一版, 目前只有create-ionic-native命令，可以创建@ionic-native插件供angular项目使用
+```ths-cli
 Usage: ths-cli <command> [项目名称]
 
 Options:
@@ -10,7 +10,7 @@ Options:
 Commands:
   create-ionic-native  创建ionic-native插件
   help [command]       display help for command
-  
+  ```
 # 安装
 ```linux
 npm install ths-cli2 -g
